@@ -6,6 +6,6 @@ import jakarta.persistence.Embeddable
 @Embeddable
 class Address {
     @Column(nullable = false) var zipCode: String = "";
-    @Column(nullable = false) var streat: String = ""
+    @Column(nullable = false) var streat: String = "";
 
 }
